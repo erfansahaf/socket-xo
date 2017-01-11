@@ -1,0 +1,33 @@
+extends layout.pug
+
+block content
+    .container
+        .row
+            .col-md-offset-4.col-md-4
+                h1 Socket.IO XO Game
+                h2#status Waiting for opponent...
+                    h4
+                        | You are: &nbsp;&nbsp;
+                        span#user ---
+
+                    table(id='table')
+                        tr
+                            td#0.bottom.right
+                            td#1.bottom.right
+                            td#2.bottom
+                        tr
+                            td#3.bottom.right
+                            td#4.bottom.right
+                            td#5.bottom
+                        tr
+                            td#6.right
+                            td#7.right
+                            td#8
+                    h3
+                        | Turn:   &nbsp;&nbsp;
+                        span#turn ----
+                    h3#replay Replay the Game
+
+block scripts
+    script(src='/socket.io/socket.io.js')
+    script(type='text/javascript', src='/js/game.js')

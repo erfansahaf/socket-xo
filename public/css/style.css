@@ -1,0 +1,21 @@
+body {
+  padding-top: 10px;
+  font-family: 'Caveat Brush', cursive !important;
+  background-color: #ececec !important;
+}
+a {color: #00B7FF;}
+
+td{
+  width: 120px;
+  height: 120px;
+  font-size: 80px;
+  text-align: center;
+}
+h1{color:#189da5}
+table {display: none;}
+
+#replay {color:#5665b5;display: none;}
+#replay:hover{cursor: pointer; cursor: hand;}
+
+.right{border-right: solid 4px #4a4a4a !important;}
+.bottom{border-bottom: solid 4px #4a4a4a !important;}
