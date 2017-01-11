@@ -6,15 +6,15 @@ Libraries: Express, Socket.io, nedb, jQuery and others. (Listed in package.json 
 
 IDE: Jetbrains PHPStorm v10
 
-Note: All server-side and client-side codes, written in WebSocket protocol. Game history will store in /databases/logs.db
+Note: All server-side and client-side codes are written in WebSocket protocol. Game history will store in /databases/logs.db
 
-Note 2: This game just developed for training purposes so it hasn't Game Room and it isn't good for real and production environments. Also, only 2 online players supported at the same time.
+Note 2: This game is just developed for training purposes so it doesn't have Game Room and it is not good for real and production environments. Also, only 2 players can play simultaneously.
 
 ## How to run ##
 
-For run this project, Node.js must be installed on the system and then:
+To run this project, you must have Node.js installed on your system. Then:
 
-Clone the project and navigate to project directory using command line and run the following command for install dependencies:
+Clone the project and navigate to project directory using command line and run the following command to install dependencies:
 
 > npm install
 
@@ -22,8 +22,8 @@ After installing dependencies, serve the project by using:
 
 > node app.js
 
-Then open your browser and go to http://localhost:3000 for see the game sheet.
-For starting the game, you should open another browser tab with same (localhost:3000) url. Whenever 2 players connect to the server successfully, the game will start automatically.
+Afterward open your browser and go to http://localhost:3000 to see the game sheet.
+To start the game, you should open another browser tab with the ssame (localhost:3000) url. When the 2 players get connected to the server successfully, the game will start.
 
 ## License ##
 
