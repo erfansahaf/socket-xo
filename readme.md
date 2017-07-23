@@ -1,3 +1,7 @@
+## Demo
+
+[![N|Solid](XO.gif)](https://github.com/erfansahaf/socket-xo)
+
 ## Project Info ##
 
 Language: Javascript (with Node.js)
